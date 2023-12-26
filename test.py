@@ -19,12 +19,12 @@ turtle.colormode(255)
 turtle.Screen().bgcolor(0, 0, 0)
 turtle.goto(-800, 300)
 turtle.pencolor(255, 182, 193)
-for i in range(150):
+for i in range(100):
     t.goto((xt(i) * 20, yt(i) * 20))
     t.pencolor((255 - i) % 255, i % 255, (255 + i) // 2 % 255)
     t.pensize(14)
     t.goto(0, 0)
-
+    turt.write('Вторая ветка', align='center', font=('Times New Roman', 23, 'italic'))
 t.hideturtle()
 turtle.update()
 turtle.mainloop()
